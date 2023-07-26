@@ -32,6 +32,12 @@
         .font-lato {
             font-family: 'Lato', sans-serif;
         }
+
+        .overlay-bg {
+            border-radius: 8px;
+            background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
+
+        }
     </style>
 
 </head>
@@ -64,48 +70,96 @@
             </div>
         </nav>
         <!-- banner section  -->
-        <section>
-            <div class="carousel flex 2xl:max-w-[1440px] md:mx-auto  lg:h-[600px] pt-8">
+        <section class="mt-8">
+            <div class="carousel flex 2xl:max-w-[1440px] md:mx-auto  lg:h-[600px]">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <img src="images/banner1.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <div>
+                        <img src="images/banner1.png" class="w-full" />
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-10">
                         <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
+                    <div class="overlay overlay-bg w-[100%] h-[100%] absolute flex justify-center items-center">
+                        <div class=" relative text-center text-white">
+                            <h1 class="text-7xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
+                            <p class="py-6">We supply highly quality organic products
+                            </p>
+                            <button
+                                class=" rounded-lg text-center bg-[#F85559] border-none font-extrabold text-[20px] text-white px-[30px] py-5">Shop
+                                Now</button>
+                        </div>
+                    </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                    <img src="images/banner2.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <div>
+                        <img src="images/banner2.png" class="w-full" />
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-10">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
+                    <div class="overlay overlay-bg w-[100%] h-[100%] absolute flex justify-center items-center">
+                        <div class=" relative text-center text-white">
+                            <h1 class="text-7xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
+                            <p class="py-6">We supply highly quality organic products
+                            </p>
+                            <button
+                                class="rounded-lg text-center bg-[#F85559] border-none font-extrabold text-[20px] text-white px-[30px] py-5">Shop
+                                Now</button>
+                        </div>
+                    </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
-                    <img src="images/banner3.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <div>
+                        <img src="images/banner3.png" class="w-full" />
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-10">
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <a href="#slide4" class="btn btn-circle">❯</a>
                     </div>
+                    <div class="overlay overlay-bg w-[100%] h-[100%] absolute flex justify-center items-center">
+                        <div class=" relative text-center text-white">
+                            <h1 class="text-7xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
+                            <p class="py-6">We supply highly quality organic products
+                            </p>
+                            <button
+                                class="rounded-lg text-center bg-[#F85559] border-none font-extrabold text-[20px] text-white px-[30px] py-5">Shop
+                                Now</button>
+                        </div>
+                    </div>
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
-                    <img src="images/banner4.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <div>
+                        <img src="images/banner4.png" class="w-full" />
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-10">
                         <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
+                    <div class="overlay overlay-bg w-[100%] h-[100%] absolute flex justify-center items-center">
+                        <div class=" relative text-center text-white">
+                            <h1 class="text-7xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
+                            <p class="py-6">We supply highly quality organic products
+                            </p>
+                            <button
+                                class="rounded-lg text-center bg-[#F85559] border-none font-extrabold text-[20px] text-white px-[30px] py-5">Shop
+                                Now</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </section>
     </header>
     <main>
         <!-- tream -->
-        <section class="2xl:max-w-[1440px] md:mx-auto">
+        <!-- <section class="2xl:max-w-[1440px] md:mx-auto">
             <div class="hero h-[690px]" style="background-image: url(images/team.png);">
                 <div class="hero-overlay bg-opacity-30"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-[615px]">
                         <h1 class="mb-6 text-5xl font-extrabold text-white ">Meet the team section</h1>
-                        <p class="mb-6 text-[16px] font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                        <p class="mb-6 text-[16px] font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                            assumenda excepturi
                             exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                     </div>
                 </div>
@@ -113,7 +167,7 @@
 
                 </div>
             </div>
-        </section>
+        </section> -->
 
     </main>
     <footer>
